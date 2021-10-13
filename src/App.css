@@ -335,7 +335,7 @@ body {
   }
   .Jobtle_list {
     margin-left: 14px;
-    margin-top: 60%;
+    margin-top: 50%;
   }
   .Jobtle_list li {
     padding-bottom: 7px;
@@ -400,6 +400,7 @@ body {
   }
   .Jobtle {
     margin: 4px auto;
+    padding: 0 0 10px 0;
   }
 
   .Jobtle h2 {
@@ -463,7 +464,7 @@ body {
   }
   .Exprnce > div label {
     font-size: 7px;
-    width: 40px;
+    width: 37px;
   }
   .Exprnce .Radios {
     display: block;
@@ -481,12 +482,7 @@ body {
   }
   .Prev_nxt button {
     padding: 4px;
-    color: #fff;
-    background-color: #06be37;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 7.5px;
+    font-size: 9px;
     font-weight: bold;
     margin: 10px 15px;
   }
@@ -496,6 +492,514 @@ body {
   }
   .nxt_btn {
     width: 50px;
+    border-radius: 4px 20px 20px 4px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .logobox_Jobtle {
+    height: 100vh;
+  }
+  .logo {
+    height: 40px;
+  }
+  .logo img {
+    height: 22px;
+    width: 104px;
+  }
+  .Jobtle_list {
+    margin-left: 14px;
+    margin-top: 50%;
+  }
+  .Jobtle_list li {
+    padding-bottom: 8px;
+    font-size: 8px;
+    padding: 5px 2px;
+    margin-bottom: 5px;
+  }
+
+  .list li a .fas,
+  .list li a .far {
+    padding-right: 3px;
+  }
+  .Jobtle_leftbtns {
+    margin: 40% 0 20% 0;
+  }
+  .Emailbtn_Jobtle .far,
+  .Supportbtn_cmpny .fas {
+    display: none;
+  }
+  .Jobtle_Supportbtn,
+  .Jobtle_Emailbtn {
+    width: 70px;
+    margin: 8px auto;
+    padding: 4px;
+    font-weight: normal;
+    font-size: 9.5px;
+
+    border-radius: 3px;
+  }
+  .lftmail .fa-envelope,
+  .lftphone .fa-phone-alt {
+    padding-right: 2px;
+  }
+  .lftmail {
+    font-size: 7px;
+  }
+  .lftphone {
+    font-size: 7.5px;
+  }
+
+  .navbar_Jobtle {
+    height: 32px;
+  }
+  .list li {
+    margin: 0 10px 0 5px;
+  }
+  .list li a .fas {
+    padding-right: 2px;
+  }
+  .whole {
+    top: 33px;
+  }
+
+  .Jobtle_btns {
+    margin: 6px 10px;
+  }
+  .btns p {
+    padding-left: 12px;
+  }
+  .Jobtle_jobbtn {
+    padding: 5px;
+    font-size: 9.5px;
+    margin-left: 4px;
+    width: 70px;
+    border-radius: 3px;
+  }
+  .Jobtle {
+    margin: 4px auto;
+    padding: 0 0 10px 0;
+  }
+
+  .Jobtle h2 {
+    padding: 5px 15px;
+
+    font-size: 22px;
+  }
+  .Jobtle p {
+    padding: 12px 0 8px 8px;
+    font-size: 10px;
+  }
+
+  .Jobtleform {
+    padding: 0 0 6px 0;
+  }
+  .CrtNjob {
+    margin-left: 12px;
+    font-size: 9.5px;
+  }
+  .Jobtlefrm label {
+    width: 128px;
+    margin-right: 5px;
+    font-size: 9.5px;
+  }
+  .job_lctn .jblctn1 {
+    margin-right: 3px;
+    width: 44%;
+  }
+  .job_lctn .jblctn2 {
+    width: 44%;
+  }
+
+  .Jobtleform input {
+    padding: 4px;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 8px;
+  }
+  .Nbrhd span {
+    margin-right: 17px;
+    font-size: 8px;
+  }
+  .Jobtleform div {
+    padding: 5px;
+    width: 97%;
+  }
+  .Clctn input {
+    margin-bottom: 7px;
+  }
+  .Jobtlefrm {
+    margin-right: 6px;
+    display: block;
+  }
+  .Exprnce {
+    margin-left: 0;
+  }
+  .Exprnce label {
+    margin-right: 4px;
+  }
+  .Exprnce > div label {
+    font-size: 8.5px;
+    width: 45px;
+  }
+  .Exprnce .Radios {
+    display: block;
+  }
+  .Exprnce .exp_rdio {
+    margin: 0 12px 0 0;
+  }
+
+  .Exprnce input {
+    margin-right: 3px;
+    width: auto;
+  }
+  .Prev_nxt {
+    width: 100%;
+  }
+  .Prev_nxt button {
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 12px 16px;
+  }
+  .prev_btn {
+    width: 80px;
+    border-radius: 20px 4px 4px 20px;
+  }
+  .nxt_btn {
+    width: 70px;
+    border-radius: 4px 20px 20px 4px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 13px;
+  }
+  .logobox_Jobtle {
+    height: 100vh;
+  }
+  .logo {
+    height: 50px;
+  }
+  .logo img {
+    height: 32px;
+    width: 155px;
+  }
+  .Jobtle_list {
+    margin-left: 18px;
+    margin-top: 30%;
+  }
+  .Jobtle_list li {
+    padding-bottom: 8px;
+    font-size: 12px;
+    padding: 5px 2px;
+    margin-bottom: 5px;
+  }
+
+  .list li a .fas,
+  .list li a .far {
+    padding-right: 3px;
+  }
+  .Jobtle_leftbtns {
+    margin: 40% 0 20% 0;
+  }
+  .Emailbtn_Jobtle .far,
+  .Supportbtn_cmpny .fas {
+    display: none;
+  }
+  .Jobtle_Supportbtn,
+  .Jobtle_Emailbtn {
+    width: 80px;
+    margin: 8px auto;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 11px;
+
+    border-radius: 4px;
+  }
+  .lftmail .fa-envelope,
+  .lftphone .fa-phone-alt {
+    padding-right: 2px;
+  }
+  .lftmail {
+    font-size: 11px;
+  }
+  .lftphone {
+    font-size: 11.5px;
+  }
+
+  .navbar_Jobtle {
+    height: 38px;
+  }
+  .list li {
+    margin: 0 10px 0 5px;
+  }
+  .list li a .fas {
+    padding-right: 3px;
+  }
+  .whole {
+    top: 39px;
+  }
+
+  .Jobtle_btns {
+    margin: 8px 10px;
+  }
+  .btns p {
+    padding-left: 13px;
+  }
+  .Jobtle_jobbtn {
+    padding: 5px;
+    font-size: 11.5px;
+    margin-left: 4px;
+    width: 70px;
+    border-radius: 3px;
+  }
+  .Jobtle {
+    margin: 6px auto;
+    padding: 0 0 10px 0;
+  }
+
+  .Jobtle h2 {
+    padding: 6px 15px;
+
+    font-size: 28px;
+  }
+  .Jobtle p {
+    padding: 12px 0 8px 8px;
+    font-size: 13px;
+  }
+
+  .Jobtleform {
+    padding: 0 0 6px 0;
+  }
+  .CrtNjob {
+    margin-left: 12px;
+    font-size: 11.5px;
+  }
+  .Jobtlefrm label {
+    width: 145px;
+    margin-right: 6px;
+    font-size: 12px;
+  }
+  .job_lctn .jblctn1 {
+    margin-right: 3px;
+    width: 44%;
+  }
+  .job_lctn .jblctn2 {
+    width: 44%;
+  }
+
+  .Jobtleform input {
+    padding: 5px 4px;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 10px;
+  }
+  .Nbrhd span {
+    margin-right: 20px;
+    font-size: 10px;
+  }
+  .Jobtleform div {
+    padding: 6px;
+    width: 97%;
+  }
+  .Clctn input {
+    margin-bottom: 8px;
+  }
+  .Jobtlefrm {
+    margin-right: 7px;
+    display: block;
+  }
+  .Exprnce {
+    margin-left: 0;
+  }
+  .Exprnce label {
+    margin-right: 5px;
+  }
+  .Exprnce > div label {
+    font-size: 10.5px;
+    width: 55px;
+  }
+  .Exprnce .Radios {
+    display: block;
+  }
+  .Exprnce .exp_rdio {
+    margin: 0 14px 0 0;
+  }
+
+  .Exprnce input {
+    margin-right: 4px;
+    width: auto;
+  }
+  .Prev_nxt {
+    width: 100%;
+  }
+  .Prev_nxt button {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 12px 16px;
+  }
+  .prev_btn {
+    width: 80px;
+    border-radius: 20px 4px 4px 20px;
+  }
+  .nxt_btn {
+    width: 70px;
+    border-radius: 4px 20px 20px 4px;
+  }
+}
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    font-size: 16px;
+  }
+  .logobox_Cmpny {
+    height: 100vh;
+  }
+  .logo {
+    height: 50px;
+  }
+  .logo img {
+    height: 40px;
+    width: 190px;
+  }
+
+  .Jobtle_list {
+    margin-left: 18px;
+    margin-top: 20%;
+  }
+  .Jobtle_list li {
+    padding-bottom: 10px;
+    font-size: 15px;
+    padding: 5px 4px;
+    margin-bottom: 5px;
+  }
+
+  .list li a .fas,
+  .list li a .far {
+    padding-right: 4px;
+  }
+  .Jobtle_leftbtns {
+    margin: 40% 0 20% 0;
+  }
+
+  .Jobtle_Supportbtn,
+  .Jobtle_Emailbtn {
+    width: 100px;
+    margin: 10px auto;
+    padding: 8px 5px;
+    font-weight: bold;
+    font-size: 15px;
+
+    border-radius: 5px;
+  }
+  .lftmail .fa-envelope,
+  .lftphone .fa-phone-alt {
+    padding-right: 2px;
+  }
+  .lftmail {
+    font-size: 15px;
+  }
+  .lftphone {
+    font-size: 15.5px;
+  }
+
+  .navbar_Jobtle {
+    height: 45px;
+  }
+  .list li {
+    margin: 0 12px 0 7px;
+  }
+  .list li a .fas {
+    padding-right: 3px;
+  }
+  .whole {
+    top: 46px;
+  }
+
+  .Jobtle_btns {
+    margin: 10px;
+  }
+  .btns p {
+    padding-left: 13px;
+  }
+  .Jobtle_jobbtn {
+    padding: 5px;
+    font-size: 14.5px;
+    margin-left: 5px;
+    width: 90px;
+    border-radius: 5px;
+  }
+  .Jobtle {
+    margin: 6px auto;
+    padding: 0 0 10px 0;
+  }
+
+  .Jobtle h2 {
+    padding: 6px 15px;
+
+    font-size: 32px;
+  }
+  .Jobtle p {
+    padding: 12px 0 8px 8px;
+    font-size: 16px;
+  }
+  .Exprnce {
+    margin-left: 33px;
+  }
+
+  .Jobtleform input {
+    padding: 5px;
+    width: 265px;
+  }
+  .Exprnce {
+    margin-left: 44px;
+  }
+  .Exprnce > div {
+    display: flex;
+    align-items: center;
+  }
+  .Exprnce > div label {
+    font-size: 16px;
+  }
+  .Exprnce .exp_rdio {
+    margin: 0 25px 0 10px;
+  }
+  .Exprnce .exp_rdio,
+  .Exprnce .entr_rdio {
+    display: flex;
+    align-items: center;
+  }
+  .Exprnce label {
+    width: auto;
+  }
+  .Exprnce input {
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .Prev_nxt {
+    width: 85%;
+  }
+  .Prev_nxt button {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 16px;
+  }
+  .prev_btn {
+    width: 90px;
+    border-radius: 20px 4px 4px 20px;
+  }
+  .nxt_btn {
+    width: 80px;
     border-radius: 4px 20px 20px 4px;
   }
 }
