@@ -1,38 +1,501 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  color: #334d6e;
+  font-family: "Poppins", sans-serif;
+  height: auto;
+  background-color: #f4f7f7c4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main_Jobtle {
+  width: 100%;
+  display: flex;
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logobox_Jobtle {
+  width: 22%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 0 4px;
+}
+.logo {
+  margin: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.Jobtle_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(63, 63, 63);
+  margin: 20% 0 0 5%;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.Jobtle_list li {
+  padding-bottom: 15px;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 8px;
+  background-color: #fff;
+}
+.Jobtle_list li:hover {
+  border-radius: 20px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.NavContainer {
+  width: 78%;
+  height: auto;
+  position: absolute;
+  left: 22%;
+}
+.navbar_Jobtle {
+  height: 50px;
+  width: 77.7%;
+  left: 22.2%;
+  display: flex;
+  box-shadow: 0 1px 4px grey;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.list {
+  display: flex;
+}
+.list li {
+  margin: 0 30px 0 10px;
+  list-style: none;
+}
+.list li a {
+  text-decoration: none;
+  color: #192a3e;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.list li a .fas {
+  padding-right: 5px;
+}
+.fa-sign-out-alt:hover,
+.Logout a:hover {
+  color: rgba(255, 0, 0, 0.87);
+}
+.list li a .fas,
+.list li a .far {
+  padding-right: 5px;
+  color: #008bdf;
+}
+.Jobtle_leftbtns {
+  margin-top: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Jobtle_Emailbtn {
+  width: 160px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #008bdf;
+  color: #fff;
+  border: none;
+  margin: 10px auto;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Jobtle_Supportbtn {
+  width: 160px;
+  cursor: pointer;
+  background-color: #c4dceb;
+  color: #192a3e;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.Jobtle_Emailbtn:hover {
+  color: #008bdf;
+  background-color: #fff;
+  border: 1px solid #008bdf;
+}
+.Jobtle_Supportbtn:hover {
+  color: #c4dceb;
+  background-color: #192a3e;
+  border: 1px soli #c4dceb;
+}
+
+.lftmail .fa-envelope,
+.lftphone .fa-phone-alt {
+  padding-right: 8px;
+  color: #192a3e;
+}
+.lftmail a {
+  color: #008bdf;
+  text-decoration: none;
+}
+.lftmail,
+.lftphone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lftphone {
+  color: #192a3e;
+  text-align: center;
+  cursor: pointer;
+}
+.whole {
+  position: absolute;
+  top: 58px;
+  width: 100%;
+}
+.Jobtle_btns {
+  margin: 10px 26px;
+  display: flex;
+  align-items: center;
+}
+.btns p {
+  padding-left: 20px;
+}
+.Jobtle_jobbtn {
+  padding: 6px 8px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-color: #deebf3;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #192a3e;
+}
+.Jobtle_jobbtn {
+  margin-left: 5px;
+
+  cursor: pointer;
+}
+.CrtNjob {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #334d6e;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.Jobtle {
+  width: 97%;
+  height: auto;
+  background-color: #fff;
+  margin: 20px auto;
+  border-top: 0.1px solid rgba(128, 128, 128, 0.623);
+
+  padding: 10px 0;
+}
+
+.Jobtle h2 {
+  padding: 10px 20px;
+  font-weight: 100;
+  color: grey;
+  font-size: 30px;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.623);
+}
+.Jobtle p {
+  padding: 20px 0 10px 10px;
+  font-size: 19px;
+  color: rgb(63, 63, 63);
+}
+.Jobtleform {
+  padding: 20px 0 10px 20px;
+  font-size: 19px;
+  color: rgb(63, 63, 63);
+}
+
+.Jobtleform input {
+  padding: 6px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid rgba(128, 128, 128, 0.76);
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.Jobtlefrm > div {
+  display: flex;
+  padding: 12px 0;
+  align-items: center;
+}
+.jblctn1 {
+  margin-right: 5px;
+}
+.Jobtlefrm label {
+  width: 200px;
+  margin-right: 10px;
+  text-align: right;
+}
+.Nbrhd span {
+  margin-right: 40px;
+  font-size: 14px;
+}
+.Exprnce {
+  margin-left: 44px;
+}
+.Exprnce > div {
+  display: flex;
+  align-items: center;
+}
+.Exprnce > div label {
+  font-size: 16px;
+}
+.Exprnce .exp_rdio {
+  margin: 0 60px 0 10px;
+}
+.Exprnce .exp_rdio,
+.Exprnce .entr_rdio {
+  display: flex;
+  align-items: center;
+}
+.Exprnce label {
+  width: auto;
+}
+.Exprnce input {
+  width: auto;
+  margin-right: 5px;
+}
+.Prev_nxt {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.Prev_nxt button {
+  padding: 8px 10px;
+  color: #fff;
+  background-color: #06be37;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px 60px;
+}
+.prev_btn {
+  width: 120px;
+  border-radius: 20px 4px 4px 20px;
+}
+.nxt_btn {
+  width: 100px;
+  border-radius: 4px 20px 20px 4px;
+}
+.Prev_nxt button:hover {
+  color: #06be37;
+  background-color: #fff;
+  border: 1px solid #06be37;
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-size: 7px;
+    overflow-x: hidden;
   }
-  to {
-    transform: rotate(360deg);
+  .logobox_Jobtle {
+    height: 100vh;
+  }
+  .logo {
+    height: 30px;
+  }
+  .logo img {
+    height: 15px;
+    width: 70px;
+  }
+  .Jobtle_list {
+    margin-left: 12px;
+    margin-top: 60%;
+  }
+  .Jobtle_list li {
+    padding-bottom: 7px;
+    font-size: 8px;
+    padding: 4px;
+    margin-bottom: 4px;
+    width: 90%;
+  }
+
+  .list li a .fas,
+  .list li a .far {
+    padding-right: 2px;
+  }
+  .Jobtle_leftbtns {
+    margin: 40% 0 20% 0;
+  }
+  .Jobtle_Supportbtn,
+  .Jobtle_Emailbtn {
+    width: 45px;
+    padding: 4px;
+    font-weight: normal;
+    font-size: 7px;
+    border-radius: 2px;
+  }
+  .lftmail .fa-envelope,
+  .lftphone .fa-phone-alt {
+    padding-right: 2px;
+  }
+  .lftmail {
+    display: block;
+    text-align: center;
+    font-size: 6.5px;
+  }
+  .lftphone {
+    font-size: 6.5px;
+  }
+
+  .navbar_Jobtle {
+    height: 25px;
+  }
+  .list li {
+    margin: 0 8px 0 5px;
+  }
+  .list li a .fas {
+    padding-right: 2px;
+  }
+  .whole {
+    top: 30px;
+  }
+  .Jobtle_btns {
+    margin: 5px 9px;
+  }
+  .btns p {
+    padding-left: 10px;
+  }
+  .Jobtle_jobbtn {
+    padding: 4px;
+    font-size: 7px;
+    margin-left: 3px;
+    width: 45px;
+    border-radius: 2px;
+  }
+  .Jobtle {
+    margin: 4px auto;
+  }
+
+  .Jobtle h2 {
+    padding: 4px 14px;
+
+    font-size: 18px;
+  }
+  .Jobtle p {
+    padding: 10px 0 7px 7px;
+    font-size: 9px;
+  }
+
+  .Jobtleform {
+    padding: 0 0 5px 0;
+  }
+  .CrtNjob {
+    margin-left: 10px;
+    font-size: 6px;
+  }
+  .Jobtlefrm label {
+    width: 118px;
+    margin-right: 5px;
+    font-size: 8px;
+  }
+  .job_lctn .jblctn1 {
+    margin-right: 2px;
+    width: 44%;
+  }
+  .job_lctn .jblctn2 {
+    width: 44%;
+  }
+
+  .Jobtleform input {
+    padding: 3px;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 6px;
+  }
+  .Nbrhd span {
+    margin-right: 13px;
+    font-size: 7px;
+  }
+  .Jobtleform div {
+    padding: 4px;
+    width: 97%;
+  }
+  .Clctn input {
+    margin-bottom: 5px;
+  }
+  .Jobtlefrm {
+    margin-right: 5px;
+    display: block;
+  }
+  .Exprnce {
+    margin-left: 0;
+  }
+  .Exprnce label {
+    margin-right: 3px;
+  }
+  .Exprnce > div label {
+    font-size: 7px;
+    width: 40px;
+  }
+  .Exprnce .Radios {
+    display: block;
+  }
+  .Exprnce .exp_rdio {
+    margin: 0 10px 0 0;
+  }
+
+  .Exprnce input {
+    margin-right: 2px;
+    width: auto;
+  }
+  .Prev_nxt {
+    width: 100%;
+  }
+  .Prev_nxt button {
+    padding: 4px;
+    color: #fff;
+    background-color: #06be37;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 7.5px;
+    font-weight: bold;
+    margin: 10px 15px;
+  }
+  .prev_btn {
+    width: 60px;
+    border-radius: 20px 4px 4px 20px;
+  }
+  .nxt_btn {
+    width: 50px;
+    border-radius: 4px 20px 20px 4px;
   }
 }
