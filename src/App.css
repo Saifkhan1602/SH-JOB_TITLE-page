@@ -320,7 +320,7 @@ body {
 
 @media all and (min-width: 320px) and (max-width: 480px) {
   body {
-    font-size: 7px;
+    font-size: 8px;
     overflow-x: hidden;
   }
   .logobox_Jobtle {
@@ -334,7 +334,7 @@ body {
     width: 70px;
   }
   .Jobtle_list {
-    margin-left: 12px;
+    margin-left: 14px;
     margin-top: 60%;
   }
   .Jobtle_list li {
@@ -347,7 +347,7 @@ body {
 
   .list li a .fas,
   .list li a .far {
-    padding-right: 2px;
+    padding-right: 3px;
   }
   .Jobtle_leftbtns {
     margin: 40% 0 20% 0;
@@ -393,7 +393,7 @@ body {
   }
   .Jobtle_jobbtn {
     padding: 4px;
-    font-size: 7px;
+    font-size: 8px;
     margin-left: 3px;
     width: 45px;
     border-radius: 2px;
@@ -417,7 +417,7 @@ body {
   }
   .CrtNjob {
     margin-left: 10px;
-    font-size: 6px;
+    font-size: 8px;
   }
   .Jobtlefrm label {
     width: 118px;
